@@ -40,7 +40,7 @@ const SignUpPage = () => {
                link="Log in"
             />
         </Wrapper>
-    )
+    );
 }
 
 export default SignUpPage;
