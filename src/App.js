@@ -5,6 +5,7 @@
 // <Link to="/about">About</Link>
 // <Link to="/singup">Sign Up</Link>
 // <Link to="/login">Log In</Link>
+// <Link to="/forgotpassword">Forgot</Link>
 // <h2>Github Pages</h2>
 // <h3>Deploying React to Github</h3>
 // </div>

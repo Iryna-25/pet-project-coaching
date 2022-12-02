@@ -5,7 +5,7 @@
 // import About from "./About";
 // import SignUpPage from "./Pages/SignUpPage";
 // import LoginPage from "./Pages/LoginPage";
-
+// import ForgotPassword from "./Pages/ForgotPassword";
 
 // ReactDOM.render(
 // <React.StrictMode>
@@ -15,6 +15,8 @@
 // <Route path="/about" element={<About/>}/>
 // <Route path="/signup" element={<SignUpPage/>}/>
 // <Route path="/login" element={<LoginPage/>}/>
+// <Route path="/forgotpassword" element={<ForgotPassword/>}/>
+
 // {/* <Route path="/verify" element={</>} /> */}
 // </Routes>
 // </HashRouter>
