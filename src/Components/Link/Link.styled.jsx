@@ -1,11 +1,13 @@
 import styled from "styled-components";
 
 export const LinkStyle = styled.a`
+    font-family: ${p => p.theme.fonts};
+    font-weight: ${p => p.theme.fontWeights.normal};
+    font-size: ${p => p.theme.fontSizes.s};
+    color: ${p => p.theme.colors.link};
+    
     display: flex;
-    font-weight: 400;
-    font-size: 11px;
     text-decoration: none;
     text-align: center;
     justify-content: right;
-    color: #B6B6B6;
 `

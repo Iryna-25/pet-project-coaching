@@ -5,7 +5,7 @@ export const ArrowRightStyles = styled.div `
     top: 50%;
     transform: translate(0, -50%);
     right: 0px;
-    color: #fff;
+    color: ${p => p.theme.colors.white};
     z-index: 1;
     cursor: pointer
 `
@@ -15,7 +15,7 @@ export const ArrowLeftStyles = styled.div `
     top: 50%;
     transform: translate(0, -50%);
     left: 0px;
-    color: #fff;
+    color: ${p => p.theme.colors.white};
     z-index: 1;
     cursor: pointer
 `

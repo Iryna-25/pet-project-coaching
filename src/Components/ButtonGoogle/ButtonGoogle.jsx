@@ -1,7 +1,6 @@
 import React from "react";
-import { ButtonGoogleStyle } from "./ButtonGoogle.styled";
+import { ButtonGoogleStyle, GoogleSvg} from "./ButtonGoogle.styled";
 import Svg from "../../Images/svg/Google-logo.svg";
-import { GoogleSvg } from "./GoogleSvg.style";
 
 const ButtonGoogle = ({text}) => (
     <ButtonGoogleStyle>

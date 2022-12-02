@@ -1,21 +1,23 @@
 import styled from "styled-components";
 
 export const ButtonStyle = styled.button `
+    font-weight: ${p => p.theme.fontWeights.bold};
+    font-size: ${p => p.theme.fontSizes.m};
+    color: ${p => p.theme.colors.white};
+    background-color: ${p => p.theme.colors.background};
+    
     display: flex;
-    font-weight: 600;
     width: 419px;
     height: 59px;
     padding: 21px;
-    font-size: 16px;
     margin: 15px 0px;
     border: 1px solid;
     border-radius: 6px;
-    background-color: #3A3A3A;
-    color: #fff;
     text-align: center;
     justify-content: center;
+    cursor: pointer;
     
     &:hover { 
-        background-color: #707070;
+        background-color: ${p => p.theme.colors.hoverButton};
     }
 `
