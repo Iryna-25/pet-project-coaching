@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const InputStyle = styled.input `
     font-size: ${p => p.theme.fontSizes.m};
-    border-color: ${p => p.theme.colors.white};
 
     display: flex;
     width: 367px;
@@ -10,7 +9,7 @@ export const InputStyle = styled.input `
     padding: 21px 25px;
     margin-top: 30px;
     margin-bottom: 30px;
-    border: 1px solid;
+    border: 1px solid ${p => p.theme.colors.white};
     border-radius: 6px;
     
     
