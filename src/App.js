@@ -1,20 +1,5 @@
-// import { Link } from "react-router-dom";
-// function App() {
-// return (
-// <div>
-// <Link to="/about">About</Link>
-// <Link to="/singup">Sign Up</Link>
-// <Link to="/login">Log In</Link>
-// <Link to="/forgotpassword">Forgot</Link>
-// <h2>Github Pages</h2>
-// <h3>Deploying React to Github</h3>
-// </div>
-// );
-// }
-// export default App;
-
 import React from 'react';
-import { Route, Routes, NavLink } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 
 import SignUpPage from './Pages/SignUpPage';
 import LoginPage from './Pages/LoginPage'; 
@@ -38,19 +23,8 @@ export default function App() {
   return (
     <Container>
       <Routes>
-        <Route path="/" 
-          element={ 
-          <>          
-            <h3>Did you be here before?</h3>
-            <NavLink to="signup">Sign Up</NavLink>
-            <NavLink to="login">Log In</NavLink>
-          </>
-        }
-        />
-
-        <Route
-        path="/signup" 
-          element={ 
+        <Route path="*" 
+        element={ 
           <>
             <SignUpPage/>
             <SliderContainer> <Slider slides={slides}/></SliderContainer> 
