@@ -1,10 +1,20 @@
 {
   "files": {
-    "main.js": "/pet-project-coaching/static/js/main.677af5ad.js",
+    "main.css": "/pet-project-coaching/static/css/main.e6c13ad2.css",
+    "main.js": "/pet-project-coaching/static/js/main.f6110928.js",
+    "static/media/Image-3.jpg": "/pet-project-coaching/static/media/Image-3.e5c1ce3de962329b1255.jpg",
+    "static/media/Image-2.jpg": "/pet-project-coaching/static/media/Image-2.ce2fdf5125f835b2ae02.jpg",
+    "static/media/Image.jpg": "/pet-project-coaching/static/media/Image.88049b928e78e5fad3b1.jpg",
+    "static/media/Image-4.jpg": "/pet-project-coaching/static/media/Image-4.332c24add1a2e9d83975.jpg",
+    "static/media/Google-logo.svg": "/pet-project-coaching/static/media/Google-logo.d4cbc4d9e865a38b932eb2dd179f1b14.svg",
     "index.html": "/pet-project-coaching/index.html",
-    "main.677af5ad.js.map": "/pet-project-coaching/static/js/main.677af5ad.js.map"
+    "static/media/Arrow-left.svg": "/pet-project-coaching/static/media/Arrow-left.c35aac77a3fec98c33b7f8e7fc4db209.svg",
+    "static/media/Arrow-right.svg": "/pet-project-coaching/static/media/Arrow-right.349f28812f802ec71754b74aeb535f55.svg",
+    "main.e6c13ad2.css.map": "/pet-project-coaching/static/css/main.e6c13ad2.css.map",
+    "main.f6110928.js.map": "/pet-project-coaching/static/js/main.f6110928.js.map"
   },
   "entrypoints": [
-    "static/js/main.677af5ad.js"
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.f6110928.js"
   ]
 }
