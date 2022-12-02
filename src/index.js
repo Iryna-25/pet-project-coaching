@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
 import { HashRouter, Routes, Route } from "react-router-dom";
-import About from "./About";
+import About from "./Components/About";
 ReactDOM.render(
 <React.StrictMode>
 <HashRouter>
