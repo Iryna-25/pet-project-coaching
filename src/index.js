@@ -6,15 +6,26 @@ import { ThemeProvider } from "styled-components";
 import { theme } from "./theme";
 
 
-const root=ReactDOM.createRoot( document.getElementById('root'));  
-root.render(
-<React.StrictMode>
-  <ThemeProvider theme={theme} >
-    <BrowserRouter 
-    basename="/pet-project-coaching"
-    >
-      <App/>
-    </BrowserRouter>
-  </ThemeProvider>
-</React.StrictMode>
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <React.StrictMode>
+    <ThemeProvider theme={theme} >
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
+    </ThemeProvider>
+  </React.StrictMode>
 );
+
+
+// const root=ReactDOM.createRoot( document.getElementById('root'));  
+// root.render(
+// <React.StrictMode>
+//   <ThemeProvider theme={theme} >
+//     <BrowserRouter 
+//     basename="/pet-project-coaching"
+//     >
+//       <App/>
+//     </BrowserRouter>
+//   </ThemeProvider>
+// </React.StrictMode>
+// );
