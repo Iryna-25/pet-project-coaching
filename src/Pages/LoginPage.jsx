@@ -7,7 +7,8 @@ import Input from "../Components/Input/Input";
 import Button from "../Components/Button/Button";
 import ButtonGoogle from "../Components/ButtonGoogle/ButtonGoogle";
 import Footer from "../Components/Footer/Footer";
-import Link from "../Components/Link/Link";
+import { Link } from "react-router-dom";
+// import Link from "../Components/Link/Link";
 
 
 const LoginPage = () => {
@@ -27,10 +28,11 @@ const LoginPage = () => {
                 placeholder="Password"
             />
 
-            <Link
-                to="/forgotpassword"
-                link="Forgot password ?" 
-            />
+            {/* <Link
+                
+                link="" 
+            />  */}
+            <Link to="/forgotpassword">Forgot password ?</Link>
 
             <Button
                 text="Login"
