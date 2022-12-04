@@ -23,7 +23,7 @@ export default function App() {
   return (
     <Container>
       <Routes>
-        <Route path="*" 
+        <Route path="/" 
         element={ 
           <>
             <SignUpPage/>
@@ -32,7 +32,7 @@ export default function App() {
           }
         />
 
-        <Route path="/login" 
+        <Route path="*" 
           element={
           <>
             <SliderContainer> <Slider slides={slides}/></SliderContainer> 
