@@ -8,6 +8,7 @@ import Button from "../Components/Button/Button";
 import ButtonGoogle from "../Components/ButtonGoogle/ButtonGoogle";
 import Footer from "../Components/Footer/Footer";
 import { Link } from "react-router-dom";
+import { LinkStyle } from "../Components/Link/Link.styled";
 // import Link from "../Components/Link/Link";
 
 
@@ -28,11 +29,9 @@ const LoginPage = () => {
                 placeholder="Password"
             />
 
-            {/* <Link
-                
-                link="" 
-            />  */}
-            <Link to="/forgotpassword">Forgot password ?</Link>
+            <LinkStyle>
+                <Link to="/forgotpassword">Forgot password ?</Link>
+            </LinkStyle>
 
             <Button
                 text="Login"
