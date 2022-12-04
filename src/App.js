@@ -22,7 +22,7 @@ export default function App() {
   return (
     <Container>
       <Routes>
-        <Route path="*" 
+        <Route path="/" 
           element={ 
               <>
                 <SignUpPage/>
