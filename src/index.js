@@ -9,7 +9,7 @@ import { theme } from "./theme";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <ThemeProvider theme={theme} >
-      <BrowserRouter basename={'/pet-project-coaching'}>
+      <BrowserRouter basename={'pet-project-coaching'}>
         <App />
       </BrowserRouter>
     </ThemeProvider>
