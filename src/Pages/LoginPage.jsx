@@ -28,7 +28,7 @@ const LoginPage = () => {
             />
 
             <Link
-                href="/forgotpassword"
+                to="/forgotpassword"
                 link="Forgot password ?" 
             />
 
@@ -40,7 +40,7 @@ const LoginPage = () => {
             />
             <Footer
                text="Don't have an account? "
-               href="/signup"
+               to="/signup"
                link="Sign up" 
             />
         </Wrapper>
