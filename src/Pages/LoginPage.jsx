@@ -1,19 +1,16 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 import { Wrapper } from "../Components/Wrapper/Wrapper.style";
+import { LinkStyle } from "../Components/Link/Link.styled";
 
 import Header from "../Components/Header/Header";
 import Input from "../Components/Input/Input";
 import Button from "../Components/Button/Button";
 import ButtonGoogle from "../Components/ButtonGoogle/ButtonGoogle";
 import Footer from "../Components/Footer/Footer";
-import { Link } from "react-router-dom";
-import { LinkStyle } from "../Components/Link/Link.styled";
-// import Link from "../Components/Link/Link";
-
 
 const LoginPage = () => {
-
     return (
         <Wrapper>
             <Header
@@ -28,11 +25,9 @@ const LoginPage = () => {
                 type="text"
                 placeholder="Password"
             />
-
             <LinkStyle>
-                <Link to="/forgotpassword">Forgot password ?</Link>
+                <NavLink to="/forgotpassword">Forgot password ?</NavLink>
             </LinkStyle>
-
             <Button
                 text="Login"
             />
@@ -43,7 +38,7 @@ const LoginPage = () => {
                text="Don't have an account? "
                to="/signup"
                link="Sign up" 
-            />
+            /> 
         </Wrapper>
     )
 }

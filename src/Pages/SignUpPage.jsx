@@ -13,8 +13,8 @@ const SignUpPage = () => {
     return (
         <Wrapper>
             <Header
-            title="Create an account"
-            subtitle="Let's get started with your 30 day free trial."
+                title="Create an account"
+                subtitle="Let's get started with your 30 day free trial."
             />
             <Input
                 type="text"
@@ -36,7 +36,7 @@ const SignUpPage = () => {
             />
             <Footer
                text="Already have an account ?"
-               href="/login"
+               to="/login"
                link="Log in"
             />
         </Wrapper>

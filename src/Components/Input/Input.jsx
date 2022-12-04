@@ -3,8 +3,8 @@ import { InputStyle } from "./Input.style";
 
 const Input = ({type, placeholder}) => (
     <InputStyle
-    type={type} 
-    placeholder={placeholder}
+        type={type} 
+        placeholder={placeholder}
     />
 );
 

@@ -13,13 +13,19 @@ export const Paragraf = styled.p `
 `
 
 export const Item = styled.a `
-    font-weight: ${p => p.theme.fontWeights.bold};
-    font-size: ${p => p.theme.fontSizes.m};
-    color: ${p => p.theme.colors.black};
+    a:link {
+        font-weight: ${p => p.theme.fontWeights.bold};
+        font-size: ${p => p.theme.fontSizes.m};
+        color: ${p => p.theme.colors.black};
+        
+        margin-top: 74px;
+        margin-bottom: 72px;
+        text-decoration: none;
+        text-align: center;
+        justify-content: center;
+    }
     
-    margin-top: 74px;
-    margin-bottom: 72px;
-    text-decoration: none;
-    text-align: center;
-    justify-content: center;
+    a:visited {
+        color: ${p => p.theme.colors.black};;
+    }
 `

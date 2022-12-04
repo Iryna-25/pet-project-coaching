@@ -1,13 +1,16 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Paragraf, Item } from "./Footer.styled";
 
-const Footer = ({text, href, link}) => (
+const Footer = ({text, to, link}) => (
     <Paragraf>{text} 
         <span> </span>
-        <Item 
-            href={href}> 
-            {link}
-        </Item> 
+        <Item>
+            <Link
+                to={to}> 
+                {link}
+            </Link> 
+        </Item>
     </Paragraf>
 );
 

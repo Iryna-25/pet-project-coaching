@@ -11,7 +11,6 @@ import { Container } from './Components/Container/Container.style';
 import { SliderContainer } from './Components/Slider/Slider.style';
 
 
-
 export default function App() {
   const slides = [
     require('./Images/Image.jpg'),
@@ -23,39 +22,36 @@ export default function App() {
   return (
     <Container>
       <Routes>
-        <Route path="/signup" 
-        element={ 
-          <>
-            <SignUpPage/>
-            <SliderContainer> <Slider slides={slides}/></SliderContainer> 
-          </>
-          }
-        />
-
         <Route path="*" 
+          element={ 
+              <>
+                <SignUpPage/>
+                <SliderContainer> <Slider slides={slides}/></SliderContainer> 
+              </>
+            }
+        />
+        <Route path="/login" 
           element={
-          <>
-            <SliderContainer> <Slider slides={slides}/></SliderContainer> 
-            <LoginPage/>
-          </>
+            <>
+              <SliderContainer> <Slider slides={slides}/></SliderContainer> 
+              <LoginPage/>
+            </>
           }
         />
-
         <Route path="/forgotpassword" 
           element={
-          <>
-            <SliderContainer> <Slider slides={slides}/></SliderContainer> 
-            <ForgotPasswordPage/>
-          </>
+            <>
+              <SliderContainer> <Slider slides={slides}/></SliderContainer> 
+              <ForgotPasswordPage/>
+            </>
           }
         />
-
         <Route path="/verify" 
           element={
-          <>
-            <SliderContainer> <Slider slides={slides}/></SliderContainer> 
-            <VerifyPage/>
-          </>
+            <>
+              <SliderContainer> <Slider slides={slides}/></SliderContainer> 
+              <VerifyPage/>
+            </>
           }
         />
       </Routes>  

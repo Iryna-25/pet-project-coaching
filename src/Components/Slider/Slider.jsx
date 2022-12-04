@@ -24,19 +24,18 @@ const Slider = ({slides}) => {
 
     return (
         <SliderStyles>
-        <ArrowLeftStyles
-            onClick={goToPrevious}>
-            <img src={ArrowLeft} 
-            alt="Arrow-left"/>  
-        </ArrowLeftStyles>
-
-        <ArrowRightStyles 
-            onClick={goToNext}>         
-            <img src={ArrowRight} 
-            alt="Arrow-right" />
-        </ArrowRightStyles>
-        <SlideStyles style={slideStyles} />
-    </SliderStyles>
+            <ArrowLeftStyles
+                onClick={goToPrevious}>
+                <img src={ArrowLeft} 
+                alt="Arrow-left"/>  
+            </ArrowLeftStyles>
+            <ArrowRightStyles 
+                onClick={goToNext}>         
+                <img src={ArrowRight} 
+                alt="Arrow-right" />
+            </ArrowRightStyles>
+            <SlideStyles style={slideStyles} />
+        </SliderStyles>
     )
 };
 

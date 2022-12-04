@@ -6,7 +6,6 @@ import Header from "../Components/Header/Header";
 import Button from "../Components/Button/Button";
 import Footer from "../Components/Footer/Footer";
 
-
 const VerifyPage = () => {
     return (
         <Wrapper>
@@ -14,14 +13,12 @@ const VerifyPage = () => {
                 title="Verify Code"
                 subtitle="Code is sent to nickname@mail.com"
             />
-
             <Button
                 text="Verify"
             />
-
             <Footer
                text="Already have an account ? "
-               href="/login"
+               to="/login"
                link="Log in"
             />
         </Wrapper>

@@ -13,15 +13,14 @@ const ForgotPasswordPage = () => {
     return (
         <Wrapper>
             <Header
-            title="Forgot Your Password?"
-            subtitle="Please confirm your email address below and we will
-            send you a verification code."
+                title="Forgot Your Password?"
+                subtitle="Please confirm your email address below and we will
+                send you a verification code."
             />
             <Input
                 type="text"
                 placeholder="Email"
             />
-
             <Button
                 text="Continue"
             />
@@ -30,7 +29,7 @@ const ForgotPasswordPage = () => {
             />
             <Footer
                text="Already have an account ? "
-               href="/login"
+               to="/login"
                link="Log in"
             />
         </Wrapper>
