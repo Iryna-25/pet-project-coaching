@@ -36,7 +36,7 @@ const LoginPage = () => {
             />
             <Footer
                text="Don't have an account? "
-               to="/signup"
+               to="/"
                link="Sign up" 
             /> 
         </Wrapper>
