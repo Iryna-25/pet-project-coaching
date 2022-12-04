@@ -10,7 +10,9 @@ const root=ReactDOM.createRoot( document.getElementById('root'));
 root.render(
 <React.StrictMode>
   <ThemeProvider theme={theme} >
-    <BrowserRouter basename="/pet-project-coaching">
+    <BrowserRouter 
+    basename="/pet-project-coaching"
+    >
       <App/>
     </BrowserRouter>
   </ThemeProvider>
