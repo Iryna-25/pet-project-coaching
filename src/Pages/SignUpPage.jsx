@@ -67,48 +67,46 @@ const SignUpPage = () => {
 
     return (
         <Wrapper>
-            {/* <form action=""> */}
-                <Header
-                    title="Create an account"
-                    subtitle="Let's get started with your 30 day free trial."
-                />
-                <Input 
-                    type="text"
-                    placeholder="Name"
-                />
-                {(email.isDirty && email.isEmpty) && <div style={{color:'red'}}>This input field can't be empty</div>}
-                {(email.isDirty && email.minLengthError) && <div style={{color:'red'}}>This input field can't be this length</div>}
+            <Header
+                title="Create an account"
+                subtitle="Let's get started with your 30 day free trial."
+            />
+            <Input 
+                type="text"
+                placeholder="Name"
+            />
+            {(email.isDirty && email.isEmpty) && <div style={{color:'red'}}>This input field can't be empty</div>}
+            {(email.isDirty && email.minLengthError) && <div style={{color:'red'}}>This input field can't be this length</div>}
 
-                <Input
-                    onChange={e => email.onChange(e)}
-                    onBlur={e => email.onBlur(e)}
-                    value={email.value}
-                    type="text"
-                    placeholder="Email"
-                />
+            <Input
+                onChange={e => email.onChange(e)}
+                onBlur={e => email.onBlur(e)}
+                value={email.value}
+                type="text"
+                placeholder="Email"
+            />
 
-                {(email.isDirty && email.isEmpty) && <div style={{color:'red'}}>This input field can't be empty</div>}
-                {(email.isDirty && email.minLengthError) && <div style={{color:'red'}}>This input field can't be this length</div>}
+            {(email.isDirty && email.isEmpty) && <div style={{color:'red'}}>This input field can't be empty</div>}
+            {(email.isDirty && email.minLengthError) && <div style={{color:'red'}}>This input field can't be this length</div>}
 
-                <Input
-                    onChange={e => password.onChange(e)}
-                    onBlur={e => password.onBlur(e)}
-                    value={password.value}
-                    type="password"
-                    placeholder="Password"
-                />
-                <Button
-                    text="Create account"
-                />
-                <ButtonGoogle
-                    text="Sign up with Google"
-                />
-                <Footer
-                text="Already have an account ?"
-                to="/login"
-                link="Log in"
-                />  
-            {/* </form> */}
+            <Input
+                onChange={e => password.onChange(e)}
+                onBlur={e => password.onBlur(e)}
+                value={password.value}
+                type="password"
+                placeholder="Password"
+            />
+            <Button
+                text="Create account"
+            />
+            <ButtonGoogle
+                text="Sign up with Google"
+            />
+            <Footer
+            text="Already have an account ?"
+            to="/login"
+            link="Log in"
+            />  
         </Wrapper>
     );
 }

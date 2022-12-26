@@ -24,11 +24,11 @@ export default function App() {
       <Routes>
         <Route path="/" 
           element={ 
-              <>
-                <SignUpPage/>
-                <SliderContainer> <Slider slides={slides}/></SliderContainer> 
-              </>
-            }
+            <>
+              <SignUpPage/>
+              <SliderContainer> <Slider slides={slides}/></SliderContainer> 
+            </>
+          }
         />
         <Route path="/login" 
           element={
